@@ -10,7 +10,7 @@ class Actui < Formula
   on_macos do
     on_intel do
       url "https://github.com/reecelikesramen/actui/releases/download/v0.1.0/actui_Darwin_x86_64.tar.gz"
-      sha256 "70f365265576256ad0aa151f2118a61f4f3edeb1b00203eb7d3a05b0224ce41b"
+      sha256 "26b924ee46c240176190d074ba51cd8a3ceb8745625c643c71271a15bf1d57dc"
 
       def install
         bin.install "actui"
@@ -18,7 +18,7 @@ class Actui < Formula
     end
     on_arm do
       url "https://github.com/reecelikesramen/actui/releases/download/v0.1.0/actui_Darwin_arm64.tar.gz"
-      sha256 "8b789f58750e31d1c6fcaf43c11fdc60662d51b01075b570621299a3d44a3ee8"
+      sha256 "25bf39092336011448fc4ded9b2b2ef6551b1913f01f5bf74db52abfcc533bb0"
 
       def install
         bin.install "actui"
@@ -30,7 +30,7 @@ class Actui < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/reecelikesramen/actui/releases/download/v0.1.0/actui_Linux_x86_64.tar.gz"
-        sha256 "617fc831db24097adf2f59d9ff0ee0af0b995542a561b9f0c3bf41232135686f"
+        sha256 "74c470fdd89458b045869aaaa054d4a959c97f3132d957b26f878bc79cc8cd0a"
 
         def install
           bin.install "actui"
@@ -40,7 +40,7 @@ class Actui < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/reecelikesramen/actui/releases/download/v0.1.0/actui_Linux_arm64.tar.gz"
-        sha256 "6c086a2474c3bb45ff2027327439dd2ba4b6f51564c7a81863ba09643022ad45"
+        sha256 "c776b4a5c28af9e47fed1b45e1d5a8b49ce50cda5920a6220adfa8aab09293b9"
 
         def install
           bin.install "actui"
